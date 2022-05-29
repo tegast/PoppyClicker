@@ -28,7 +28,7 @@
 
       vkBridge.send('VKWebAppInit');
 
-      function friends(){
+      function Auth(){
         vkBridge.send('VKWebAppGetUserInfo').then(_info =>{
           console.log(_info);
           unityInstance.SendMessage('VKSDK', 'Authenticate', JSON.stringify(_info));
