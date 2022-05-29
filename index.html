@@ -20,6 +20,7 @@
       function friends(){
         vkBridge.send('VKWebAppGetUserInfo').then(_info =>{
           console.log(_info);
+          unityInstance.SendMessage('VKSDK', 'AuthenticateSuccess', JSON.stringify(_info));
         });
       }
 
