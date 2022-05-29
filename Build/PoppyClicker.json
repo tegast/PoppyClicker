@@ -1,7 +1,7 @@
 {
-"companyName": "DefaultCompany",
-"productName": "New Unity Project",
-"productVersion": "1.0",
+"companyName": "Tegast Production",
+"productName": "PoppyClicker",
+"productVersion": "0.02",
 "dataUrl": "PoppyClicker.data.unityweb",
 "wasmCodeUrl": "PoppyClicker.wasm.code.unityweb",
 "wasmFrameworkUrl": "PoppyClicker.wasm.framework.unityweb",
